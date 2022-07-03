@@ -1,22 +1,25 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
- * main - prints the size of various types on the computer it is compiled
- * and run on
+ * main - Entry point
+ *
+ * Description - prints out size of databases
+ *
  * Return: 0 always
  */
 int main(void)
 {
 	int intType;
 	float floatType;
-	double doubleType;
+	long int longIntType;
+	long long int llit;
 	char charType;
 
-	/* sizeof evaluates the size of a variable*/
+	printf("size of char: %zu bytes(s)\n", sizeof(charType));
+	printf("size of an int: %zu byte(s)\n", sizeof(intType));
+	printf("size of a long int: %zu byte(s)\n", sizeof(longIntType));
+	printf("size of a long long int: %zu byte(s)\n", sizeof(llit));
+	printf("size of a float: %zu byte(s)\n", sizeof(floatType));
 
-	printf("Size of int: %d bytes\n", sizeof(intType));
-	printf("Size of float: %d bytes\n", sizeof(floatType));
-	printf("Size of double: %d bytes\n", sizeof(doubleType));
-	printf("Size of char: %d byte\n", sizeof(charType));
 	return (0);
 }
