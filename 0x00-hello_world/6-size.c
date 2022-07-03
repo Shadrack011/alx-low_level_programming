@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description - prints out size of databases
+ * Description: prints out size of databases
  *
  * Return: 0 always
  */
