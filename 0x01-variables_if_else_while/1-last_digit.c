@@ -8,7 +8,7 @@
 /**
  * main -> assign a random number to the variable n each time it is executed
  * print the last digit of the number stored in the variable n
- * Return : always 0
+ * Return: always 0
  */
 
 int main(void)
@@ -23,8 +23,8 @@ int main(void)
 
 				n = rand() - RAND_MAX / 2;
 
-					printf("Last digit of %d is ", n);
-					if (n >5)
+					printf("Last digit of %d is", n);
+					if (n > 5)
 					{
 						printf("greater than 5");
 					}
@@ -32,7 +32,7 @@ int main(void)
 					{
 						printf("0");
 					}
-					if (n < 6 && n !=0)
+					if (n < 6 && n != 0)
 					{
 						printf("less than 6 not 0");
 					}
