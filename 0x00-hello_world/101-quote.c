@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include <sttring.h>
+#include <string.h>
 
 
 
