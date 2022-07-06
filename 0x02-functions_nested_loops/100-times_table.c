@@ -2,12 +2,11 @@
 
 /**
  * print_times_table -  prints the n times table, starting with 0
- * @: value of the times table to be printed.
- * n - is a int
+ * @n: value of the times table to be printed.
  */
 void print_times_table(int n) /* n is an integer*/
 {
-	int num, mult, prod;
+	int mult, prod;
 
 	if (n >= 0 && n <= 15)
 	{
@@ -18,7 +17,7 @@ void print_times_table(int n) /* n is an integer*/
 			_putchar(',');
 			_putchar(' ');
 
-			prod = num * mult;
+			prod = n * mult;
 
 			if (prod <= 99)
 				_putchar(' ');
