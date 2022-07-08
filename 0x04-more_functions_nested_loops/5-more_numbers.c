@@ -7,16 +7,16 @@
 
 void more_numbers(void)
 {
-        int g, q;
+	int g, q;
 
-        for (g = 0; g <= 9; g++)
-        {
-                for (q = 0; q <= 14; q++)
-                {
-                        if (q > 9)
-                                _putchar((q / 10) + '0');
-                        _putchar((q % 10) + '0');
-                }
-                _putchar('\n');
-        }
+	for (g = 0; g <= 9; g++)
+	{
+		for (q = 0; q <= 14; q++)
+		{
+			if (q > 9)
+				_putchar((q / 10) + '0');
+			_putchar((q % 10) + '0');
+		}
+		_putchar('\n');
+	}
 }

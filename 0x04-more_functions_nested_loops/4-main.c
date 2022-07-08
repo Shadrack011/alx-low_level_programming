@@ -11,8 +11,8 @@ int main(void)
 
 {
 
-        print_most_numbers();
+	print_most_numbers();
 
-        return (0);
+	return (0);
 
 }
