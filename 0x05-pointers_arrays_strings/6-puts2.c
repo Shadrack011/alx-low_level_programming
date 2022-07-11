@@ -8,15 +8,15 @@
 
 int _strlen(char *s)
 {
-        int l = 0;
+	int l = 0;
 
-        while (*s != '\0')
-        {
-                l++;
-                s++;
-        }
+	while (*s != '\0')
+	{
+		l++;
+		s++;
+	}
 
-        return (l);
+	return (l);
 }
 /**
  * puts2 - prints every second character of a string,
@@ -26,10 +26,10 @@ int _strlen(char *s)
 
 void puts2(char *str)
 {
-        int i;
+	int i;
 
-        for (i = 0; str[i] != '\0' && i < _strlen(str); i += 2)
-                _putchar(str[i]);
+	for (i = 0; str[i] != '\0' && i < _strlen(str); i += 2)
+		_putchar(str[i]);
 
-        _putchar('\n');
+	_putchar('\n');
 }
