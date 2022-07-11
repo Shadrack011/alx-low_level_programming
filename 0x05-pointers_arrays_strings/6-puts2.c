@@ -18,7 +18,6 @@ int _strlen(char *s)
 
         return (l);
 }
-
 /**
  * puts2 - prints every second character of a string,
  * followed by a new line
