@@ -1,7 +1,3 @@
-        }
-        printf("\n");
-}
-root@ad785329ec96:~/alx-low_level_programming/0x05-pointers_arrays_strings# cat 9-strcpy.c
 #include "main.h"
 
 /**

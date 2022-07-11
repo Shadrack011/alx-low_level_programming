@@ -1,7 +1,3 @@
-                _putchar(str[i]);
-        _putchar('\n');
-}
-root@ad785329ec96:~/alx-low_level_programming/0x05-pointers_arrays_strings# cat 8-print_array.c
 #include "main.h"
 
 /**
